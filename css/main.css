@@ -1,0 +1,96 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: "gilroylight", sans-serif;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.container {
+  max-width: 1221px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'gilroylight';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../webfonts/gilroy-light-webfont.woff2") format("woff2"), url("../webfonts/gilroy-light-webfont.woff") format("woff");
+}
+
+.fixed_nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 4%;
+}
+
+.fixed_nav .container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.fixed_nav .container .fixed_nav-items {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixed_nav .container .fixed_nav-items .fixed_nav-link {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #07080C;
+}
+
+.fixed_nav .container .fixed_nav-items .fixed_nav-link:hover {
+  color: #ff1010;
+}
+/*# sourceMappingURL=main.css.map */

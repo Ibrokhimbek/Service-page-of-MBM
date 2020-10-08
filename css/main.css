@@ -243,14 +243,13 @@ button:hover {
 }
 
 .main_header .container .main_header-animated-header-box .animation .bar-1 {
-  height: 100px;
+  height: 80px;
 }
 
 .main_header .container .main_header-animated-header-box .animation .bar-2 {
   height: 55px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .main_header .container .main_header-animated-header-box .animation .bar-3 {

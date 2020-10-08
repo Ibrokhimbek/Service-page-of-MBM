@@ -1,7 +1,7 @@
 #top_navbar {
     width: 100%;
     height: 75px;
-    margin-top: 35px;
+    margin-top: 15px;
 
     .container {
         width: 100%;
@@ -9,10 +9,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
 
         .logo_link {
-            width: 185px;
+            width: 80px;
 
             img {
                 width: 100%;
@@ -27,7 +27,6 @@
         }
 
         .nav_link {
-            align-self: flex-end;
             font-size: 25px;
             font-weight: normal;
             font-family: "Gilroylight";

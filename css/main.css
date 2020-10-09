@@ -537,6 +537,56 @@ button:hover {
   display: none;
 }
 
+.develop_product {
+  width: 100%;
+}
+
+.develop_product .container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.develop_product .container .header {
+  margin-top: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.develop_product .container .header h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.develop_product .container .paragraph {
+  margin-top: 90px;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.develop_product .container .paragraph p {
+  font-size: 24px;
+  color: #707070;
+  text-align: center;
+}
+
 .bottom_area {
   height: 3000px;
 }

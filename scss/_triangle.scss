@@ -1,0 +1,23 @@
+.triangle-box {
+    width: 100%;
+    margin-top: 367px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 40px solid #000;
+            transition: all .5s ease-in-out;
+        }
+
+        .triangle:hover {
+            transform: rotate(180deg);
+            border-bottom: 40px solid #F52929;
+        }
+    }
+}

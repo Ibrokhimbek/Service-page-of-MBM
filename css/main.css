@@ -654,6 +654,66 @@ button:hover {
           justify-content: space-evenly;
 }
 
+.design_section {
+  height: 220px;
+  margin-top: 100px;
+}
+
+.design_section .container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design_section .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.design_section .container .header h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.design_section .container .des_col-1 {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.design_section .container .des_col-1 .img-box {
+  height: 100%;
+}
+
+.design_section .container .des_col-1 .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
 .bottom_area {
   height: 3000px;
 }

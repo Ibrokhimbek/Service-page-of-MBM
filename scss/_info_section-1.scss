@@ -1,0 +1,93 @@
+.info_section_1 {
+    margin-top: 220px;
+    
+    .container {
+        width: 100%;
+        height: 100%;
+
+        .main-box {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .header {
+                width: 100%;
+                position: absolute;
+                z-index: 999;
+
+                h2 {
+                    font-size: 77px;
+                    font-weight: 100;
+
+                    span {
+                        color: #707070;
+                    }
+                }
+            }
+
+            .box_text {
+                width: 30%;
+                align-self: flex-end;
+                display: flex;
+                flex-direction: column;
+                p {
+                    width: 100%;
+                    color: #07080C;
+                    font-size: 22px;
+                    line-height: 43px;
+                    margin-bottom: 60px;
+                }
+
+                a {
+                    font-size: 25px;
+                    align-self: center;
+                    color: #F60032;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .box_img {
+                width: 65%;
+                display: flex;
+                justify-content: center;
+                
+                img {
+                    width: 92%;
+                    transition: all 0.5s ease-in;
+                }
+
+                img:hover {
+                    transform: rotate(-10deg);
+                }
+            }
+        }
+    }
+}
+
+.red_block {
+    margin-top: 140px;
+    
+    .container {
+        display: flex;
+        justify-content: center;
+
+        span {
+            width: 200px;
+            height: 35px;
+            background-color: #F60032;
+            transition: all 0.5s ease-in;
+        }
+
+    }
+}
+
+.red_block:hover {
+    span {
+        width: 5px;
+    }
+}

@@ -8,7 +8,16 @@
 @import "development_section";
 @import "design_section";
 @import "info_section-1";
+@import "info_section-2";
 
 .bottom_area {
     height: 3000px;
+}
+
+.show {
+    display: inline;
+}
+
+.hide {
+    display: none;
 }

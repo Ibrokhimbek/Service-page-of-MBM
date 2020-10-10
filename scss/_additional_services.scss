@@ -1,0 +1,38 @@
+.additional_services {
+    margin-top: 150px;
+
+    .container{
+        display: flex;
+        justify-content: center;
+
+        p {
+            width: 90%;
+            font-size: 30px;
+            font-weight: 100;
+            color: #707070;
+            text-align: center;
+        }
+    }
+}
+
+//! Centered vertical line
+
+.vertical_line {
+    margin-top: 80px;
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        div:nth-child(1) {
+            width: 100%;
+        }
+
+        div:nth-child(2) {
+            width: 100%;
+            height: 70px;
+            border-left: 1.5px solid #707070;
+        }
+    }
+}

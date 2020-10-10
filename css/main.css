@@ -47,6 +47,8 @@ button:hover {
   top: 0;
   height: 100%;
   width: 4%;
+  z-index: 9999;
+  background: #fff;
 }
 
 .fixed_nav .container {
@@ -280,7 +282,7 @@ button:hover {
 
 .triangle-box {
   width: 100%;
-  margin-top: 367px;
+  margin-top: 200px;
 }
 
 .triangle-box .container {
@@ -932,6 +934,134 @@ button:hover {
   font-size: 21px;
   line-height: 43px;
   margin-top: 70px;
+}
+
+.additional_services {
+  margin-top: 150px;
+}
+
+.additional_services .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.additional_services .container p {
+  width: 90%;
+  font-size: 30px;
+  font-weight: 100;
+  color: #707070;
+  text-align: center;
+}
+
+.vertical_line {
+  margin-top: 80px;
+}
+
+.vertical_line .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.vertical_line .container div:nth-child(1) {
+  width: 100%;
+}
+
+.vertical_line .container div:nth-child(2) {
+  width: 100%;
+  height: 70px;
+  border-left: 1.5px solid #707070;
+}
+
+.add_ser_boxes {
+  margin-top: 100px;
+}
+
+.add_ser_boxes .container .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.add_ser_boxes .container .boxes .card {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add_ser_boxes .container .boxes .card .card_img {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add_ser_boxes .container .boxes .card .card_img img {
+  width: 50%;
+  height: 100%;
+}
+
+.add_ser_boxes .container .boxes .card .card_text {
+  width: 100%;
+  height: 110px;
+  background-color: #D6D6D6;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add_ser_boxes .container .boxes .card .card_text h3 {
+  font-size: 22px;
+  font-weight: 100;
+  word-spacing: 5px;
+  text-align: center;
+  padding: 15px 15px;
+  line-height: 35px;
 }
 
 .bottom_area {

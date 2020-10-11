@@ -1,0 +1,115 @@
+.work_together {
+  margin-top: 130px;
+  height: 500px;
+
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 130px;
+
+      h2 {
+        font-size: 64px;
+        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+      }
+    }
+
+    .contact_details {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .contact_online {
+        width: 50%;
+        height: 100%;
+
+        form {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .texts {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+              width: 42%;
+              color: black;
+              font-family: "gilroylight", sans-serif;
+              font-size: 25px;
+              font-weight: 100;
+              border: none;
+              padding: 10px 0;
+              padding-left: 10px;
+              border-bottom: 1px solid #707070;
+            }
+
+            input::placeholder {
+              font-size: 25px;
+              font-weight: 100;
+              font-family: "gilroylight", sans-serif;
+              color: #707070;
+            }
+          }
+
+          input {
+            width: 42%;
+            color: black;
+            font-family: "gilroylight", sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+            border: none;
+            padding: 10px 0;
+            padding-left: 10px;
+            border-bottom: 1px solid #707070;
+          }
+
+          button {
+              background-color: #07080c;
+              padding: 10px 15px;
+              color: white;
+              font-family: "gilroylight", sans-serif;
+              font-size: 20px;
+              font-weight: 100;
+              border-radius: 35px;
+              width: 15%;
+              border: 1px solid transparent;
+              transition: all 0.3s ease-in-out;
+          }
+
+          button:hover {
+              background-color: #fff;
+              color: #07080c;
+              border: 1px solid #07080c;
+          }
+        }
+      }
+
+      .contact_offline {
+        width: 40%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        span {
+          font-size: 25px;
+          font-weight: 100;
+          color: #07080c;
+        }
+      }
+    }
+  }
+}

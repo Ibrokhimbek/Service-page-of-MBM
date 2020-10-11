@@ -1,0 +1,133 @@
+.clients_section {
+  margin-top: 145px;
+
+  .container {
+    .header {
+      width: 100%;
+
+      h2 {
+        width: 100%;
+        font-size: 106px;
+        font-weight: 100;
+        margin-left: 15px;
+
+        .hide {
+          font-size: 90px;
+        }
+      }
+
+      h2:hover .show {
+        display: none;
+      }
+
+      h2:hover .hide {
+        display: inline;
+      }
+    }
+
+    .clients_body {
+      width: 100%;
+      height: 400px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .clients_body-names {
+        width: 43%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        list-style-type: none;
+
+        .client {
+          width: 100%;
+          padding: 20px 0;
+          border-bottom: 1px solid #f60032;
+          text-align: center;
+
+          span {
+            font-size: 22px;
+            font-weight: 300;
+            font-family: "Rubik", sans-serif;
+            color: #707070;
+            transition: all 0.5s ease-in-out;
+
+            a {
+              transition: all 0.5s ease-in-out;
+              color: #707070;
+            }
+          }
+
+          span:hover {
+            color: #f60032;
+            font-size: 26px;
+          }
+
+          span:hover a {
+            color: #f60032;
+            font-size: 26px;
+          }
+        }
+      }
+
+      .clients_body-comments {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .comments_1,
+        .comments_2 {
+          position: relative;
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .comment {
+            display: flex;
+            align-items: center;
+
+            span {
+              color: #000000;
+              text-align: justify;
+              z-index: 9999;
+              font-size: 15px;
+              padding: 0 10px;
+              visibility: hidden;
+            }
+          }
+
+          .comment::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.356);
+            visibility: hidden;
+          }
+
+          .comment-1,
+          .comment-2,
+          .comment-3,
+          .comment-4,
+          .comment-5,
+          .comment-6 {
+            width: 90%;
+            height: 30%;
+            background-image: url(../images/hi.jpg);
+            background-size: cover;
+          }
+        }
+      }
+    }
+  }
+}

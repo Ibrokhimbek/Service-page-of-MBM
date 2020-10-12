@@ -1,164 +1,487 @@
 .digital_strategy {
-    margin-top: 100px;
-    font-family: "gilroylight", sans-serif;
+  margin-top: 100px;
+  height: 400px;
+  font-family: "gilroylight", sans-serif;
 
-    .container {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .digital_str_img {
+      width: 45%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .box-top {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: flex-end;
+
+        .img-box {
+          width: 40%;
+          height: 75%;
+          transition: all 0.5s ease-in-out;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h2 {
+            font-family: "gilroylight";
+            font-weight: 100;
+            font-size: 60px;
+            transition: all 0.5s ease-out;
+          }
+        }
+
+        .box_1 {
+          background-image: url(../images/web_design.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_2 {
+          background-image: url(../images/grphic_design.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_1:hover,
+        .box_2:hover {
+          filter: grayscale(0%);
+        }
+
+        .img-box:hover {
+          width: 50%;
+          height: 90%;
+          cursor: pointer;
+
+          h2 {
+            font-size: 90px;
+            color: #f52929;
+          }
+        }
+      }
+
+      .box-bottom {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+        .img-box {
+          width: 40%;
+          height: 75%;
+          transition: all 0.5s ease-in-out;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h2 {
+            font-family: "gilroylight";
+            font-weight: 100;
+            font-size: 60px;
+            transition: all 0.5s ease-out;
+          }
+        }
+
+        .box_3 {
+          background-image: url(../images/web_development.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_4 {
+          background-image: url(../images/mobile_app_dev.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_3:hover,
+        .box_4:hover {
+          filter: grayscale(0%);
+        }
+
+        .img-box:hover {
+          width: 50%;
+          height: 90%;
+          cursor: pointer;
+
+          h2 {
+            font-size: 90px;
+            color: #f52929;
+          }
+        }
+      }
+    }
+
+    .digital_headers {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .animated_header {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        display: flex;
+        justify-content: center;
         align-items: center;
 
-        .digital_str_img {
-            width: 45%;
-            height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        .animation {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
-            .box-top {
-                width: 100%;
-                height: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: flex-end;
-
-                .img-box {
-                    width: 40%;
-                    height: 75%;
-                    transition: all 0.5s ease-in-out;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    h2 {
-                        font-family: "gilroylight";
-                        font-weight: 100;
-                        font-size: 60px;
-                        transition: all 0.5s ease-out;
-                    }
-                }
-
-                .box_1 {
-                    background-image: url(../images/web_design.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    filter: grayscale(100%);
-                }
-
-                .box_2 {
-                    background-image: url(../images/grphic_design.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    filter: grayscale(100%);
-                }
-
-                .box_1:hover, .box_2:hover {
-                    filter: grayscale(0%);
-                }
-
-                .img-box:hover {
-                    width: 50%;
-                    height: 90%;
-                    cursor: pointer;
-
-                    h2 {
-                        font-size: 90px;
-                        color: #F52929;
-                    }
-                }
-            }
-
-            .box-bottom {
-                width: 100%;
-                height: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: flex-start;
-
-                .img-box {
-                    width: 40%;
-                    height: 75%;
-                    transition: all 0.5s ease-in-out;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    h2 {
-                        font-family: "gilroylight";
-                        font-weight: 100;
-                        font-size: 60px;
-                        transition: all 0.5s ease-out;
-                    }
-
-                }
-
-                .box_3 {
-                    background-image: url(../images/web_development.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    filter: grayscale(100%);
-                }
-
-                .box_4 {
-                    background-image: url(../images/mobile_app_dev.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    filter: grayscale(100%);
-                }
-
-                .box_3:hover, .box_4:hover {
-                    filter: grayscale(0%);
-                }
-
-                .img-box:hover {
-                    width: 50%;
-                    height: 90%;
-                    cursor: pointer;
-
-                    h2 {
-                        font-size: 90px;
-                        color: #F52929;
-                    }
-                }
-            }
-        }
-
-        .digital_headers {
-            width: 45%;
+          .animation_div {
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
+            width: 15%;
+            background-color: #f6dd00;
+          }
 
-            .animated_header {
-                border: 1px solid red;
-                width: 100%;
-                height: 100%;
-                position: relative;
+          .box_1 {
+            height: 0%;
+            align-self: flex-start;
+            transition: all 0.5s ease-in-out;
+          }
 
-                .animation {
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    border: 1px solid red;
-                }
-            }
+          .box_2 {
+            height: 0%;
+            align-self: flex-end;
+            transition: all 0.5s ease-in-out;
+          }
 
-            .image_caption {
-                img {
-                    display: none;
-                }
-            }
+          .box_3 {
+            height: 0%;
+            align-self: flex-start;
+            transition: all 0.5s ease-in-out;
+          }
         }
+
+        h2 {
+          font-size: 66px;
+          font-weight: 100;
+          font-family: "gilroylight", sans-serif;
+          color: #07080c;
+          z-index: 9999;
+        }
+      }
+
+      .animated_header:hover .box_1 {
+        height: 75%;
+      }
+      .animated_header:hover .box_2 {
+        height: 60%;
+      }
+      .animated_header:hover .box_3 {
+        height: 65%;
+      }
+
+      .image_caption {
+        width: 100%;
+        height: 14%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        border-bottom: 1px solid #f60032;
+
+        h2 {
+          font-size: 28px;
+          font-weight: 100;
+          color: #07080c;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+        }
+
+        img {
+          height: 30px;
+          transform: rotate(90deg);
+          transition: all 0.5s ease-in-out;
+        }
+      }
+
+      .image_caption:hover h2 {
+        font-size: 31px;
+        color: #f52929;
+      }
+
+      .image_caption:hover img {
+        height: 33px;
+      }
     }
+  }
+}
+
+.digital_production {
+  margin-top: 100px;
+  height: 400px;
+  font-family: "gilroylight", sans-serif;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .digital_str_img {
+      width: 45%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .box-top {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+
+        .img-box {
+          width: 40%;
+          height: 75%;
+          transition: all 0.5s ease-in-out;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h2 {
+            font-family: "gilroylight";
+            font-weight: 100;
+            font-size: 60px;
+            transition: all 0.5s ease-out;
+          }
+        }
+
+        .box_1 {
+          background-image: url(../images/web_design.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_2 {
+          background-image: url(../images/grphic_design.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_1:hover,
+        .box_2:hover {
+          filter: grayscale(0%);
+        }
+
+        .img-box:hover {
+          width: 50%;
+          height: 90%;
+          cursor: pointer;
+
+          h2 {
+            font-size: 90px;
+            color: #f52929;
+          }
+        }
+      }
+
+      .box-bottom {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+        .img-box {
+          width: 40%;
+          height: 75%;
+          transition: all 0.5s ease-in-out;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h2 {
+            font-family: "gilroylight";
+            font-weight: 100;
+            font-size: 60px;
+            transition: all 0.5s ease-out;
+          }
+        }
+
+        .box_3 {
+          background-image: url(../images/web_development.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_4 {
+          background-image: url(../images/mobile_app_dev.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: grayscale(100%);
+        }
+
+        .box_3:hover,
+        .box_4:hover {
+          filter: grayscale(0%);
+        }
+
+        .img-box:hover {
+          width: 50%;
+          height: 90%;
+          cursor: pointer;
+
+          h2 {
+            font-size: 90px;
+            color: #f52929;
+          }
+        }
+      }
+    }
+
+    .digital_headers {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .animated_header {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .animation {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          .animation_div {
+            height: 100%;
+            width: 15%;
+            background-color: #5158be;
+          }
+
+          .box_1 {
+            height: 0%;
+            align-self: flex-start;
+            transition: all 0.5s ease-in-out;
+          }
+
+          .box_2 {
+            height: 0%;
+            align-self: flex-end;
+            transition: all 0.5s ease-in-out;
+          }
+
+          .box_3 {
+            height: 0%;
+            align-self: flex-start;
+            transition: all 0.5s ease-in-out;
+          }
+        }
+
+        h2 {
+          font-size: 66px;
+          font-weight: 100;
+          font-family: "gilroylight", sans-serif;
+          color: #07080c;
+          z-index: 9999;
+        }
+      }
+
+      .animated_header:hover .box_1 {
+        height: 75%;
+      }
+      .animated_header:hover .box_2 {
+        height: 60%;
+      }
+      .animated_header:hover .box_3 {
+        height: 65%;
+      }
+
+      .image_caption {
+        width: 100%;
+        height: 14%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        border-bottom: 1px solid #f60032;
+
+        h2 {
+          font-size: 28px;
+          font-weight: 100;
+          color: #07080c;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+        }
+
+        img {
+          height: 30px;
+          transform: rotate(90deg);
+          transition: all 0.5s ease-in-out;
+        }
+      }
+
+      .image_caption:hover h2 {
+        font-size: 31px;
+        color: #f52929;
+      }
+
+      .image_caption:hover img {
+        height: 33px;
+      }
+    }
+  }
 }

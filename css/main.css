@@ -312,6 +312,7 @@ button:hover {
 
 .digital_strategy {
   margin-top: 100px;
+  height: 400px;
   font-family: "gilroylight", sans-serif;
 }
 
@@ -411,7 +412,8 @@ button:hover {
           filter: grayscale(100%);
 }
 
-.digital_strategy .container .digital_str_img .box-top .box_1:hover, .digital_strategy .container .digital_str_img .box-top .box_2:hover {
+.digital_strategy .container .digital_str_img .box-top .box_1:hover,
+.digital_strategy .container .digital_str_img .box-top .box_2:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
@@ -424,7 +426,7 @@ button:hover {
 
 .digital_strategy .container .digital_str_img .box-top .img-box:hover h2 {
   font-size: 90px;
-  color: #F52929;
+  color: #f52929;
 }
 
 .digital_strategy .container .digital_str_img .box-bottom {
@@ -487,7 +489,8 @@ button:hover {
           filter: grayscale(100%);
 }
 
-.digital_strategy .container .digital_str_img .box-bottom .box_3:hover, .digital_strategy .container .digital_str_img .box-bottom .box_4:hover {
+.digital_strategy .container .digital_str_img .box-bottom .box_3:hover,
+.digital_strategy .container .digital_str_img .box-bottom .box_4:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
@@ -500,7 +503,7 @@ button:hover {
 
 .digital_strategy .container .digital_str_img .box-bottom .img-box:hover h2 {
   font-size: 90px;
-  color: #F52929;
+  color: #f52929;
 }
 
 .digital_strategy .container .digital_headers {
@@ -522,21 +525,479 @@ button:hover {
 }
 
 .digital_strategy .container .digital_headers .animated_header {
-  border: 1px solid red;
   width: 100%;
-  height: 100%;
+  height: 40%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .digital_strategy .container .digital_headers .animated_header .animation {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_strategy .container .digital_headers .animated_header .animation .animation_div {
+  height: 100%;
+  width: 15%;
+  background-color: #f6dd00;
+}
+
+.digital_strategy .container .digital_headers .animated_header .animation .box_1 {
+  height: 0%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_strategy .container .digital_headers .animated_header .animation .box_2 {
+  height: 0%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_strategy .container .digital_headers .animated_header .animation .box_3 {
+  height: 0%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_strategy .container .digital_headers .animated_header h2 {
+  font-size: 66px;
+  font-weight: 100;
+  font-family: "gilroylight", sans-serif;
+  color: #07080c;
+  z-index: 9999;
+}
+
+.digital_strategy .container .digital_headers .animated_header:hover .box_1 {
+  height: 75%;
+}
+
+.digital_strategy .container .digital_headers .animated_header:hover .box_2 {
+  height: 60%;
+}
+
+.digital_strategy .container .digital_headers .animated_header:hover .box_3 {
+  height: 65%;
+}
+
+.digital_strategy .container .digital_headers .image_caption {
+  width: 100%;
+  height: 14%;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-bottom: 1px solid #f60032;
+}
+
+.digital_strategy .container .digital_headers .image_caption h2 {
+  font-size: 28px;
+  font-weight: 100;
+  color: #07080c;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .digital_strategy .container .digital_headers .image_caption img {
-  display: none;
+  height: 30px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_strategy .container .digital_headers .image_caption:hover h2 {
+  font-size: 31px;
+  color: #f52929;
+}
+
+.digital_strategy .container .digital_headers .image_caption:hover img {
+  height: 33px;
+}
+
+.digital_production {
+  margin-top: 100px;
+  height: 400px;
+  font-family: "gilroylight", sans-serif;
+}
+
+.digital_production .container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_production .container .digital_str_img {
+  width: 45%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_production .container .digital_str_img .box-top {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.digital_production .container .digital_str_img .box-top .img-box {
+  width: 40%;
+  height: 75%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_production .container .digital_str_img .box-top .img-box h2 {
+  font-family: "gilroylight";
+  font-weight: 100;
+  font-size: 60px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.digital_production .container .digital_str_img .box-top .box_1 {
+  background-image: url(../images/web_design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.digital_production .container .digital_str_img .box-top .box_2 {
+  background-image: url(../images/grphic_design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.digital_production .container .digital_str_img .box-top .box_1:hover,
+.digital_production .container .digital_str_img .box-top .box_2:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.digital_production .container .digital_str_img .box-top .img-box:hover {
+  width: 50%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.digital_production .container .digital_str_img .box-top .img-box:hover h2 {
+  font-size: 90px;
+  color: #f52929;
+}
+
+.digital_production .container .digital_str_img .box-bottom {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.digital_production .container .digital_str_img .box-bottom .img-box {
+  width: 40%;
+  height: 75%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_production .container .digital_str_img .box-bottom .img-box h2 {
+  font-family: "gilroylight";
+  font-weight: 100;
+  font-size: 60px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.digital_production .container .digital_str_img .box-bottom .box_3 {
+  background-image: url(../images/web_development.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.digital_production .container .digital_str_img .box-bottom .box_4 {
+  background-image: url(../images/mobile_app_dev.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.digital_production .container .digital_str_img .box-bottom .box_3:hover,
+.digital_production .container .digital_str_img .box-bottom .box_4:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.digital_production .container .digital_str_img .box-bottom .img-box:hover {
+  width: 50%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.digital_production .container .digital_str_img .box-bottom .img-box:hover h2 {
+  font-size: 90px;
+  color: #f52929;
+}
+
+.digital_production .container .digital_headers {
+  width: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.digital_production .container .digital_headers .animated_header {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_production .container .digital_headers .animated_header .animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital_production .container .digital_headers .animated_header .animation .animation_div {
+  height: 100%;
+  width: 15%;
+  background-color: #5158be;
+}
+
+.digital_production .container .digital_headers .animated_header .animation .box_1 {
+  height: 0%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_production .container .digital_headers .animated_header .animation .box_2 {
+  height: 0%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_production .container .digital_headers .animated_header .animation .box_3 {
+  height: 0%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_production .container .digital_headers .animated_header h2 {
+  font-size: 66px;
+  font-weight: 100;
+  font-family: "gilroylight", sans-serif;
+  color: #07080c;
+  z-index: 9999;
+}
+
+.digital_production .container .digital_headers .animated_header:hover .box_1 {
+  height: 75%;
+}
+
+.digital_production .container .digital_headers .animated_header:hover .box_2 {
+  height: 60%;
+}
+
+.digital_production .container .digital_headers .animated_header:hover .box_3 {
+  height: 65%;
+}
+
+.digital_production .container .digital_headers .image_caption {
+  width: 100%;
+  height: 14%;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-bottom: 1px solid #f60032;
+}
+
+.digital_production .container .digital_headers .image_caption h2 {
+  font-size: 28px;
+  font-weight: 100;
+  color: #07080c;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.digital_production .container .digital_headers .image_caption img {
+  height: 30px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.digital_production .container .digital_headers .image_caption:hover h2 {
+  font-size: 31px;
+  color: #f52929;
+}
+
+.digital_production .container .digital_headers .image_caption:hover img {
+  height: 33px;
 }
 
 .develop_product {

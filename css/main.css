@@ -1068,7 +1068,6 @@ button:hover {
 }
 
 .development_section {
-  height: 550px;
   margin-top: 100px;
 }
 
@@ -1103,7 +1102,8 @@ button:hover {
 
 .development_section .container .tech_col-1, .development_section .container .tech_col-2, .development_section .container .tech_col-3 {
   width: 100%;
-  height: 100px;
+  height: 100%;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1124,7 +1124,7 @@ button:hover {
 }
 
 .development_section .container .tech_col-1 .img-box img, .development_section .container .tech_col-2 .img-box img, .development_section .container .tech_col-3 .img-box img {
-  width: 100%;
+  width: 100px;
   height: 100%;
 }
 
@@ -1169,7 +1169,6 @@ button:hover {
 
 .design_section .container .des_col-1 {
   width: 100%;
-  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1190,7 +1189,7 @@ button:hover {
 }
 
 .design_section .container .des_col-1 .img-box img {
-  width: 100%;
+  width: 110px;
   height: 100%;
 }
 

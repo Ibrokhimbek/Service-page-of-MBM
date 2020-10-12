@@ -1489,6 +1489,38 @@ button:hover {
   color: #07080c;
 }
 
+.footer {
+  margin-top: 110px;
+  margin-bottom: 45px;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container a {
+  font-size: 25px;
+  font-weight: 100;
+  color: #07080C;
+}
+
+.footer .container a:first-child {
+  margin-right: 50px;
+}
+
+.footer .container a:hover {
+  text-decoration: underline;
+}
+
 .bottom_area {
   height: 1000px;
 }

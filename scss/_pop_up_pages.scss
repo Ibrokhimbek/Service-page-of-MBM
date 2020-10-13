@@ -10,7 +10,7 @@
   background: #fff;
 
   .left_content {
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding: 30px 57px;
     display: flex;
@@ -18,8 +18,8 @@
     justify-content: space-evenly;
 
     button {
-      width: 7%;
-      height: 6%;
+      width: 6%;
+      height: 4%;
       padding: 10px;
       background-color: transparent;
       border: none;
@@ -30,13 +30,13 @@
     }
 
     h2 {
-      font-size: 52px;
+      font-size: 48px;
       font-weight: 100;
       color: #07080c;
     }
 
     p {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 100;
       color: #07080c;
     }
@@ -44,12 +44,12 @@
 
   .triangle-box {
     position: absolute;
-    width: 100%;
-    top: -20vh;
+    width: 80%;
+    top: -10vh;
   }
 
   .right_img {
-    width: 50%;
+    width: 60%;
     height: 100%;
 
     img {

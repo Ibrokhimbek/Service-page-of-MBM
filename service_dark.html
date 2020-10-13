@@ -12,6 +12,18 @@
         background: black;
       }
 
+      .light_background {
+        background-color: #fff !important;
+      }
+
+      .light_background img {
+        padding: 5px;
+      }
+
+      .dark_background {
+        background-color: black !important;
+      }
+
       .dark {
         color: white !important;
       }
@@ -22,6 +34,18 @@
 
       .border_dark {
           border-bottom-color: white !important;
+      }
+
+      #inputs::placeholder {
+        color: #707070;
+      }
+
+      input {
+          color: white !important;
+      }
+
+      input::placeholder {
+          color: #707070;
       }
   </style>
 </head>
@@ -129,19 +153,19 @@
           </div>
           <h2 class="dark">Digital Strategy</h2>
         </div>
-        <div class="image_caption caption-1">
+        <div id="wd_click" class="image_caption caption-1">
           <h2 class="dark">Web Design</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
-        <div class="image_caption caption-1">
+        <div id="gd_click" class="image_caption caption-1">
           <h2 class="dark">Graphic Design</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
-        <div class="image_caption caption-1">
+        <div id="wdev_click" class="image_caption caption-1">
           <h2 class="dark">Web Development</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
-        <div class="image_caption caption-1">
+        <div id="mad_click" class="image_caption caption-1">
           <h2 class="dark">Mobile Application Development</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
@@ -166,19 +190,19 @@
           </div>
           <h2 class="dark">Digital Production</h2>
         </div>
-        <div class="image_caption caption-1">
+        <div id="r_click" class="image_caption caption-1">
           <h2 class="dark">Ranking</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
-        <div class="image_caption caption-1">
+        <div id="pr_click" class="image_caption caption-1">
           <h2 class="dark">Public Relations</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
-        <div class="image_caption caption-1">
+        <div id="seo_click" class="image_caption caption-1">
           <h2 class="dark">Search Engine Optimization</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
-        <div class="image_caption caption-1">
+        <div id="smm_click" class="image_caption caption-1">
           <h2 class="dark">Social Media Marketing</h2>
           <img src="images/right-arrow.png" alt="">
         </div>
@@ -559,8 +583,8 @@
         <div class="contact_online">
           <form action="">
             <div class="texts">
-              <input type="text" placeholder="Your name" required>
-              <input type="text" placeholder="Your message here" >
+              <input type="text" placeholder="Your name" required >
+              <input type="text" placeholder="Your message here" required>
             </div>
             <input type="tel" placeholder="Your Phone Number">
             <input type="email" placeholder="Your Email Address">
@@ -584,6 +608,182 @@
       <a href="#" class="dark">Privacy policy</a>
     </div>
   </footer>
+
+  <!-- Pop-up pages -->
+  <div id="web_design" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="web_design_btn"></button>
+      <h2 class="dark">Web Design</h2>
+      <p class="dark">The use of colors that are not closely related to the brand and logo of the company in the design of the website and the inability to highlight key areas. As a result, it is unable to attract observers and customers. </p>
+      <p class="dark">Creating a design on the website that can attract viewers through colors that match the company logo and image.</p>
+      <p class="dark">In the process of tracking a website, users can learn all the information about the company without spending a lot of time, on the other hand, the interest of every company observer who uses a good design increases as well as the demand.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/web-design.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="public_relations" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="public_btn">
+      </button>
+      <h2 class="dark">Public Relations</h2>
+      <p class="dark">Insufficient and complete information about the organization or service is not provided to the public, industry representatives, communication with customers, partners and observers is weak or not established at all. As a result, customers are unaware of the organization’s services and low sales performance.</p>
+      <p class="dark"> Public relations professionals establish and maintain relationships with the organization’s target audience, the media, relevant commercial media, and other partner leaders. They enhance the company’s public image by organizing events and promoting the brand. </p>
+      <p class="dark">Increased interest in the brand and confidence in quality services through the actions taken on the basis of a targeted strategy, strengthening the position of the organization in the eyes of society and constant attention.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/public_relations.jpg" alt="">
+    </div>
+  </div>
+  
+  <div id="ranking" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="ranking_btn">
+      </button>
+      <h2 class="dark">Ranking</h2>
+      <p class="dark">The company has its own website and even though it is SEO optimized, it can be downgraded and overlooked due to strong competition from search engines.</p>
+      <p class="dark"> Ranking is one of the most effective types of services to include a company or product site in the list of high-ranking sites, thereby attracting the attention of users and providing customer requests with fast and complete information before competitors, increase service efficiency.</p>
+      <p class="dark"> Be one of the first to increase brand confidence by meeting customer requirements, maintain competitiveness, gain regular customers worldwide.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/ranking.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="graphic_design" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="graphic_design_btn">
+      </button>
+      <h2 class="dark">Graphic Design</h2>
+      <p class="dark">Creation of visual products (pictures, posters) using non-modern and low-quality means, lack of attention, widespread lack of information and, consequently, a sharp decline in the number of observers.</p>
+      <p class="dark">Delivering information in a visual way through modern mobile apps and additional details, providing information and services to users using quality products and interesting content.</p>
+      <p class="dark">With the help of rich and eye-catching images, the interest and demand of users for the types of products and services increases, the brand has its own direction with quality and unique design.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/grphic_design.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="web_development" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="web_dev_btn">
+      </button>
+      <h2 class="dark">Web development</h2>
+      <p class="dark">Lack of accurate and complete information about the company's type of activity or products on the Internet or non-compliance with the requirements in terms of quality and design.</p>
+      <p class="dark">A website with a quality and perfect design from a professional team can be prepared at an affordable price and in a short time.</p>
+      <p class="dark">The fact that different age groups of the society have clear and detailed information about the services or products of the business owner and as a result increase the number of customers and increase the brand position among competitors.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/web_development.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="mobile_app_development" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="mobile_btn">
+      </button>
+      <h2 class="dark">Mobile Application Development</h2>
+      <p class="dark">Lack of mobile applications that have many features in a particular type of activity or in a particular direction and are intended for a wide audience, or have high prices on them.</p>
+      <p class="dark">Development of a mobile application with modern design and convenient features at agreed prices, based on customer requirements and suggestions in a short time.</p>
+      <p class="dark">Fast and high-quality communication with customers through the fact that a certain person or company has its own mobile application, the level of brand recognition and efficiency increases with the increase In the number of downloads by users.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/mobile_app_dev.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="seo" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="seo_btn">
+      </button>
+      <h2 class="dark">SEO</h2>
+      <p class="dark">The absence of an organization or product website on the Internet, the inactivity of the created website, and its non-connection to search engines.</p>
+      <p class="dark">SEO network optimization of all pages and content of a website with creative design and features, i.e. adding it to popular search engines (Google, Yandex), increasing the number of keywords by activity and product type ensure that it is among the most visited sites when searching in.</p>
+      <p class="dark">Increasing the activity of the organization on the Internet by adding the site to search engines, ensuring that it is in demand not only locally but also abroad, to benefit from the traffic spent by users.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/search_engine_optimization.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="smm" class="dark_background pop_wd-page pop_hide pop_open">
+    <div class="left_content">
+      <button type="button" class="light_background" id="smm_btn">
+      </button>
+      <h2 class="dark">SMM</h2>
+      <p class="dark">Lack of a permanent and active audience on social networks, artificially gathering temporary and inactive observers, spending large sums on ineffective advertising on incorrectly selected networks, lack of a well-thought-out marketing strategy .  </p>
+      <p class="dark">Improving product quality, providing accurate and precise information to the public, taking into account the age and interests of observers, conducting healthy competition and creating a targeted strategy, studying customer suggestions and objections, and meeting their requirements.</p>
+      <p class="dark">Increasing the organization's loyal followers on social networks, achieving high trust by meeting their needs with high quality and affordable prices, the natural growth of sales through mutual advertising among customers, competitors in the demand market through well-thought-out content to take the lead among and strengthen their position.</p>
+    </div>
+
+    <!-- Triangle -->
+    <div class="triangle-box">
+      <div class="container">
+        <div class="triangle"></div>
+      </div>
+    </div>
+
+    <div class="right_img">
+      <img src="images/social_media_marketing.jpg" alt="">
+    </div>
+  </div>
 
   <script src="javascript/main.js"></script>
 </body>

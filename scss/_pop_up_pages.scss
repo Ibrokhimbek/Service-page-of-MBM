@@ -1,0 +1,91 @@
+.pop_wd-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  z-index: 9999;
+  background: #fff;
+
+  .left_content {
+    width: 50%;
+    height: 100%;
+    padding: 30px 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    button {
+      width: 7%;
+      height: 6%;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      align-self: flex-start;
+      background-image: url(../images/cross-sign.png);
+      background-size: cover;
+      z-index: 9999;
+    }
+
+    h2 {
+      font-size: 52px;
+      font-weight: 100;
+      color: #07080c;
+    }
+
+    p {
+      font-size: 22px;
+      font-weight: 100;
+      color: #07080c;
+    }
+  }
+
+  .triangle-box {
+    position: absolute;
+    width: 100%;
+    top: -20vh;
+  }
+
+  .right_img {
+    width: 50%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.pop_hide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100vh);
+  display: none;
+}
+
+.pop_open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(0);
+  animation: open 0.5s forwards normal ease-in-out;
+  z-index: 9999;
+}
+
+@keyframes open {
+  from {
+    transform: translateY(-100vh);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

@@ -757,7 +757,7 @@ button:hover {
 }
 
 .digital_production .container .digital_str_img .box-top .box_1 {
-  background-image: url(../images/web_design.jpg);
+  background-image: url(../images/ranking.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -766,7 +766,7 @@ button:hover {
 }
 
 .digital_production .container .digital_str_img .box-top .box_2 {
-  background-image: url(../images/grphic_design.jpg);
+  background-image: url(../images/public_relations.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -834,7 +834,7 @@ button:hover {
 }
 
 .digital_production .container .digital_str_img .box-bottom .box_3 {
-  background-image: url(../images/web_development.jpg);
+  background-image: url(../images/search_engine_optimization.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -843,7 +843,7 @@ button:hover {
 }
 
 .digital_production .container .digital_str_img .box-bottom .box_4 {
-  background-image: url(../images/mobile_app_dev.jpg);
+  background-image: url(../images/social_media_marketing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1920,6 +1920,7 @@ button:hover {
   padding: 10px 0;
   padding-left: 10px;
   border-bottom: 1px solid #707070;
+  background-color: transparent;
 }
 
 .work_together .container .contact_details .contact_online form button {
@@ -1996,6 +1997,130 @@ button:hover {
 
 .footer .container a:hover {
   text-decoration: underline;
+}
+
+.pop_wd-page {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  z-index: 9999;
+  background: #fff;
+}
+
+.pop_wd-page .left_content {
+  width: 50%;
+  height: 100%;
+  padding: 30px 57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pop_wd-page .left_content button {
+  width: 7%;
+  height: 6%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background-image: url(../images/cross-sign.png);
+  background-size: cover;
+  z-index: 9999;
+}
+
+.pop_wd-page .left_content h2 {
+  font-size: 52px;
+  font-weight: 100;
+  color: #07080c;
+}
+
+.pop_wd-page .left_content p {
+  font-size: 22px;
+  font-weight: 100;
+  color: #07080c;
+}
+
+.pop_wd-page .triangle-box {
+  position: absolute;
+  width: 100%;
+  top: -20vh;
+}
+
+.pop_wd-page .right_img {
+  width: 50%;
+  height: 100%;
+}
+
+.pop_wd-page .right_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.pop_hide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
+  display: none;
+}
+
+.pop_open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation: open 0.5s forwards normal ease-in-out;
+          animation: open 0.5s forwards normal ease-in-out;
+  z-index: 9999;
+}
+
+@-webkit-keyframes open {
+  from {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes open {
+  from {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .show {

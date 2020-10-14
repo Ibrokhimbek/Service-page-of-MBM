@@ -1176,21 +1176,27 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .design_section .container .des_col-1 .img-box {
+  width: 10%;
   height: 100%;
 }
 
 .design_section .container .des_col-1 .img-box img {
-  width: 100px;
-  height: 100%;
+  width: 100%;
+  height: 90%;
+}
+
+.design_section .container .des_col-1 .img-box:first-child img {
+  width: 100%;
+  height: 70%;
+  margin-top: 15px;
 }
 
 .info_section_1 {
@@ -1512,14 +1518,13 @@ button:hover {
 }
 
 .add_ser_boxes .container .boxes .card .card_img img {
-  width: 50%;
+  width: 60%;
   height: 100%;
 }
 
 .add_ser_boxes .container .boxes .card .card_text {
   width: 100%;
   height: 110px;
-  background-color: #D6D6D6;
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1533,11 +1538,15 @@ button:hover {
 }
 
 .add_ser_boxes .container .boxes .card .card_text h3 {
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 25px;
+  font-weight: bold;
   text-align: center;
   padding: 15px 15px;
   line-height: 35px;
+}
+
+.add_ser_boxes .container .boxes .card:nth-child(2) .card_img img {
+  height: 110%;
 }
 
 .discount_section {
@@ -2037,28 +2046,38 @@ button:hover {
 }
 
 .pop_wd-page .left_content button {
-  width: 6%;
-  height: 4%;
+  width: 30px;
+  height: 30px;
   padding: 10px;
   background-color: transparent;
   border: none;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  background-image: url(../images/cross-sign.png);
+  background-image: url(../images/cross-sign.svg);
+  background-repeat: no-repeat;
   background-size: cover;
   z-index: 9999;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.pop_wd-page .left_content button:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .pop_wd-page .left_content h2 {
   font-size: 48px;
   font-weight: 100;
   color: #07080c;
+  text-align: center;
 }
 
 .pop_wd-page .left_content p {
   font-size: 20px;
   font-weight: 100;
   color: #07080c;
+  text-align: justify;
 }
 
 .pop_wd-page .triangle-box {

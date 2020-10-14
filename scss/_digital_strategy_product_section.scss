@@ -76,6 +76,18 @@
         }
       }
 
+      .hovered_box {
+          width: 50% !important;
+          height: 90% !important;
+          cursor: pointer !important;
+          filter: grayscale(0%) !important;
+
+          h2 {
+            font-size: 90px !important;
+            color: #f52929 !important;
+          }
+      }
+
       .box-bottom {
         width: 100%;
         height: 100%;
@@ -238,6 +250,17 @@
       .image_caption:hover img {
         height: 33px;
       }
+
+      .hovered_caption {
+        h2 {
+          font-size: 31px !important;
+          color: #f52929 !important;
+        }
+
+        img {
+          height: 33px !important;
+        }
+      }
     }
   }
 }
@@ -319,6 +342,18 @@
           }
         }
       }
+
+      .hovered_box {
+        width: 50% !important;
+        height: 90% !important;
+        cursor: pointer !important;
+        filter: grayscale(0%) !important;
+
+        h2 {
+          font-size: 90px !important;
+          color: #f52929 !important;
+        }
+    }
 
       .box-bottom {
         width: 100%;
@@ -481,6 +516,17 @@
 
       .image_caption:hover img {
         height: 33px;
+      }
+
+      .hovered_caption {
+        h2 {
+          font-size: 31px !important;
+          color: #f52929 !important;
+        }
+
+        img {
+          height: 33px !important;
+        }
       }
     }
   }

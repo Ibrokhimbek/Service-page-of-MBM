@@ -114,6 +114,12 @@ gd_click.addEventListener("mouseover", () => {
 gd_click.addEventListener("mouseout", () => {
   box_2.classList.remove("hovered_box");
 })
+box_2.addEventListener("mouseover", ()=> {
+  gd_click.classList.add("hovered_caption");
+});
+box_2.addEventListener("mouseout", ()=> {
+  gd_click.classList.remove("hovered_caption");
+});
 
 wdev_click.addEventListener("mouseover", () => {
   box_3.classList.add("hovered_box");
@@ -121,6 +127,12 @@ wdev_click.addEventListener("mouseover", () => {
 wdev_click.addEventListener("mouseout", () => {
   box_3.classList.remove("hovered_box");
 })
+box_3.addEventListener("mouseover", ()=> {
+  wdev_click.classList.add("hovered_caption");
+});
+box_3.addEventListener("mouseout", ()=> {
+  wdev_click.classList.remove("hovered_caption");
+});
 
 mad_click.addEventListener("mouseover", () => {
   box_4.classList.add("hovered_box");
@@ -128,6 +140,12 @@ mad_click.addEventListener("mouseover", () => {
 mad_click.addEventListener("mouseout", () => {
   box_4.classList.remove("hovered_box");
 })
+box_4.addEventListener("mouseover", ()=> {
+  mad_click.classList.add("hovered_caption");
+});
+box_4.addEventListener("mouseout", ()=> {
+  mad_click.classList.remove("hovered_caption");
+});
 
 r_click.addEventListener("mouseover", () => {
   box_5.classList.add("hovered_box");
@@ -135,6 +153,12 @@ r_click.addEventListener("mouseover", () => {
 r_click.addEventListener("mouseout", () => {
   box_5.classList.remove("hovered_box");
 })
+box_5.addEventListener("mouseover", ()=> {
+  r_click.classList.add("hovered_caption");
+});
+box_5.addEventListener("mouseout", ()=> {
+  r_click.classList.remove("hovered_caption");
+});
 
 pr_click.addEventListener("mouseover", () => {
   box_6.classList.add("hovered_box");
@@ -142,6 +166,12 @@ pr_click.addEventListener("mouseover", () => {
 pr_click.addEventListener("mouseout", () => {
   box_6.classList.remove("hovered_box");
 })
+box_6.addEventListener("mouseover", ()=> {
+  pr_click.classList.add("hovered_caption");
+});
+box_6.addEventListener("mouseout", ()=> {
+  pr_click.classList.remove("hovered_caption");
+});
 
 seo_click.addEventListener("mouseover", () => {
   box_7.classList.add("hovered_box");
@@ -149,6 +179,12 @@ seo_click.addEventListener("mouseover", () => {
 seo_click.addEventListener("mouseout", () => {
   box_7.classList.remove("hovered_box");
 })
+box_7.addEventListener("mouseover", ()=> {
+  seo_click.classList.add("hovered_caption");
+});
+box_7.addEventListener("mouseout", ()=> {
+  seo_click.classList.remove("hovered_caption");
+});
 
 smm_click.addEventListener("mouseover", () => {
   box_8.classList.add("hovered_box");
@@ -156,3 +192,9 @@ smm_click.addEventListener("mouseover", () => {
 smm_click.addEventListener("mouseout", () => {
   box_8.classList.remove("hovered_box");
 })
+box_8.addEventListener("mouseover", ()=> {
+  smm_click.classList.add("hovered_caption");
+});
+box_8.addEventListener("mouseout", ()=> {
+  smm_click.classList.remove("hovered_caption");
+});

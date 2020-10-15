@@ -235,6 +235,10 @@
           cursor: pointer;
         }
 
+        h2:hover {
+          color: #f60032 !important;
+        }
+
         img {
           height: 30px;
           transform: rotate(90deg);
@@ -338,7 +342,7 @@
 
           h2 {
             font-size: 90px;
-            color: #f52929;
+            color: #f52929 !important;
           }
         }
       }
@@ -500,6 +504,10 @@
           color: #07080c;
           transition: all 0.5s ease-in-out;
           cursor: pointer;
+        }
+
+        h2:hover {
+          color: #f60032 !important;
         }
 
         img {

@@ -668,6 +668,10 @@ button:hover {
   cursor: pointer;
 }
 
+.digital_strategy .container .digital_headers .image_caption h2:hover {
+  color: #f60032 !important;
+}
+
 .digital_strategy .container .digital_headers .image_caption img {
   height: 30px;
   -webkit-transform: rotate(90deg);
@@ -810,7 +814,7 @@ button:hover {
 
 .digital_production .container .digital_str_img .box-top .img-box:hover h2 {
   font-size: 90px;
-  color: #f52929;
+  color: #f52929 !important;
 }
 
 .digital_production .container .digital_str_img .hovered_box {
@@ -1033,6 +1037,10 @@ button:hover {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
+}
+
+.digital_production .container .digital_headers .image_caption h2:hover {
+  color: #f60032 !important;
 }
 
 .digital_production .container .digital_headers .image_caption img {

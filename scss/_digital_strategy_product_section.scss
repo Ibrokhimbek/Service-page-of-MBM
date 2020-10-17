@@ -253,7 +253,7 @@
 
       .image_caption:hover img {
         height: 33px;
-        transition: rotate(180deg);
+        transform: rotate(180deg);
       }
 
       .hovered_caption {
@@ -264,7 +264,7 @@
 
         img {
           height: 33px !important;
-          transition: rotate(180deg);
+          transform: rotate(180deg);
         }
       }
     }
@@ -526,7 +526,7 @@
 
       .image_caption:hover img {
         height: 33px;
-        transition: rotate(180deg);
+        transform: rotate(180deg) !important;
       }
 
       .hovered_caption {
@@ -537,7 +537,7 @@
 
         img {
           height: 33px !important;
-          transition: rotate(180deg);
+          transform: rotate(180deg) !important;
         }
       }
     }

@@ -3415,13 +3415,14 @@ button:hover {
     width: 100%;
     position: absolute;
     top: 10px;
-    left: 50px;
+    left: 0px;
     z-index: 999;
   }
   .info_section_2 .container .main-box .header h2 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 100;
     color: #07080c;
+    margin-left: 14%;
   }
   .info_section_2 .container .main-box .header h2 span {
     color: #707070;
@@ -3472,8 +3473,8 @@ button:hover {
   .info_section_2 .container .main-box .box_text p {
     width: 100%;
     color: #07080c;
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 9px;
+    line-height: normal;
     margin-top: 0px;
   }
   .additional_services {
@@ -3565,7 +3566,7 @@ button:hover {
             align-items: flex-end;
   }
   .add_ser_boxes .container .boxes .card .card_img img {
-    width: 70%;
+    width: 80%;
     height: 100%;
   }
   .add_ser_boxes .container .boxes .card .card_text {
@@ -3658,6 +3659,7 @@ button:hover {
   }
   .clients_section {
     margin-top: 45px;
+    height: 750px;
   }
   .clients_section .container {
     display: -webkit-box;
@@ -3869,7 +3871,7 @@ button:hover {
             align-items: flex-end;
   }
   .work_together {
-    margin-top: 150px;
+    margin-top: 20px;
     height: 550px;
   }
   .work_together .container {
@@ -3882,6 +3884,9 @@ button:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .work_together .container .header {
     display: -webkit-box;
@@ -3890,7 +3895,7 @@ button:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .work_together .container .header h2 {
     font-size: 24px;
@@ -3926,15 +3931,15 @@ button:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .work_together .container .contact_details .contact_online form .texts {
     width: 80%;
+    height: 150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3942,9 +3947,8 @@ button:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -3959,7 +3963,7 @@ button:hover {
     padding: 10px 0;
     padding-left: 10px;
     border-bottom: 1px solid #707070;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .work_together .container .contact_details .contact_online form .texts input::-webkit-input-placeholder {
     font-size: 20px;
@@ -3996,7 +4000,7 @@ button:hover {
     padding-left: 10px;
     border-bottom: 1px solid #707070;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .work_together .container .contact_details .contact_online form button {
     width: 40%;
@@ -4076,6 +4080,130 @@ button:hover {
   }
   .footer .container a:hover {
     text-decoration: underline;
+  }
+  .pop_wd-page {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+  }
+  .pop_wd-page .left_content {
+    width: 100%;
+    height: 70vh;
+    padding: 10px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .pop_wd-page .left_content button {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    background-image: url(../images/cross-sign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    align-self: flex-start;
+  }
+  .pop_wd-page .left_content button:hover {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .pop_wd-page .left_content h2 {
+    font-size: 27px;
+    font-weight: 100;
+    color: #07080c;
+    text-align: center;
+  }
+  .pop_wd-page .left_content p {
+    font-size: 13px;
+    font-weight: 100;
+    color: #07080c;
+    text-align: justify;
+  }
+  .pop_wd-page .triangle-box {
+    position: absolute;
+    width: 100%;
+    top: 20vh;
+    left: 0;
+  }
+  .pop_wd-page .right_img {
+    width: 100%;
+    height: 30vh;
+  }
+  .pop_wd-page .right_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .pop_hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+    display: none;
+  }
+  .pop_open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation: open 0.5s forwards normal ease-in-out;
+            animation: open 0.5s forwards normal ease-in-out;
+    z-index: 9999;
+  }
+  @-webkit-keyframes open {
+    from {
+      -webkit-transform: translateY(-100vh);
+              transform: translateY(-100vh);
+    }
+    to {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @keyframes open {
+    from {
+      -webkit-transform: translateY(-100vh);
+              transform: translateY(-100vh);
+    }
+    to {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
   }
 }
 

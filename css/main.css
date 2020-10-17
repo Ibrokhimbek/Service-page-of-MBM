@@ -3348,7 +3348,6 @@ button:hover {
   }
   .info_section_1 .container .main-box .box_img {
     width: 68%;
-    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

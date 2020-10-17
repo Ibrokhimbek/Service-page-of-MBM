@@ -2334,7 +2334,7 @@ button:hover {
     height: 30px;
     position: absolute;
     top: -10px;
-    right: -10px;
+    right: -5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3659,6 +3659,20 @@ button:hover {
   .clients_section {
     margin-top: 45px;
   }
+  .clients_section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .clients_section .container .header {
     width: 100%;
   }
@@ -3678,7 +3692,7 @@ button:hover {
     display: inline;
   }
   .clients_section .container .clients_body {
-    width: 100%;
+    width: 90%;
     height: 500px;
     margin-top: 40px;
     display: -webkit-box;
@@ -3853,6 +3867,215 @@ button:hover {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+  }
+  .work_together {
+    margin-top: 150px;
+    height: 550px;
+  }
+  .work_together .container {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .work_together .container .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .work_together .container .header h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+  }
+  .work_together .container .contact_details {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work_together .container .contact_details .contact_online {
+    width: 100%;
+    height: 100%;
+  }
+  .work_together .container .contact_details .contact_online form {
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work_together .container .contact_details .contact_online form .texts {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work_together .container .contact_details .contact_online form .texts input {
+    width: 100%;
+    color: black;
+    font-family: "gilroylight", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #707070;
+    margin-top: 20px;
+  }
+  .work_together .container .contact_details .contact_online form .texts input::-webkit-input-placeholder {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "gilroylight", sans-serif;
+    color: #707070;
+  }
+  .work_together .container .contact_details .contact_online form .texts input:-ms-input-placeholder {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "gilroylight", sans-serif;
+    color: #707070;
+  }
+  .work_together .container .contact_details .contact_online form .texts input::-ms-input-placeholder {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "gilroylight", sans-serif;
+    color: #707070;
+  }
+  .work_together .container .contact_details .contact_online form .texts input::placeholder {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "gilroylight", sans-serif;
+    color: #707070;
+  }
+  .work_together .container .contact_details .contact_online form input {
+    width: 80%;
+    color: black;
+    font-family: "gilroylight", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #707070;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  .work_together .container .contact_details .contact_online form button {
+    width: 40%;
+    background-color: #07080c;
+    padding: 8px 20px;
+    color: white;
+    font-family: "gilroylight", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .work_together .container .contact_details .contact_online form button:hover {
+    background-color: #fff;
+    color: #07080c;
+    border: 1px solid #07080c;
+  }
+  .work_together .container .contact_details .contact_offline {
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work_together .container .contact_details .contact_offline span {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 100;
+    color: #07080c;
+    text-align: justify;
+  }
+  .work_together .container .contact_details .contact_offline span br {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer .container {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .container a {
+    font-size: 20px;
+    font-weight: 100;
+    color: #07080c;
+  }
+  .footer .container a:first-child {
+    margin-right: 0px !important;
+  }
+  .footer .container a:hover {
+    text-decoration: underline;
   }
 }
 

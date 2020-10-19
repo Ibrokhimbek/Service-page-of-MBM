@@ -2260,6 +2260,7 @@ button:hover {
   #top_navbar .container .underline {
     width: 20%;
     border-bottom: 1px solid black;
+    visibility: hidden;
   }
   #top_navbar .container .nav_link {
     font-size: 20px;
@@ -2270,7 +2271,7 @@ button:hover {
   }
   .main_header {
     width: 100%;
-    height: 250px;
+    height: 470px;
     margin-top: 0%;
   }
   .main_header .container {
@@ -2306,7 +2307,7 @@ button:hover {
             align-items: center;
   }
   .main_header .container .main_header-img-box img {
-    width: 40%;
+    width: 45%;
     visibility: hidden;
   }
   .main_header .container .main_header-animated-header-box {
@@ -2325,15 +2326,15 @@ button:hover {
     text-align: center;
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 22px;
     letter-spacing: 0px;
     z-index: 9999;
   }
   .main_header .container .main_header-animated-header-box .animation {
     width: 100%;
-    height: 30px;
+    height: 35px;
     position: absolute;
-    top: -10px;
+    top: 10px;
     right: -5px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2382,7 +2383,7 @@ button:hover {
   .main_header .container .main_header-paragraph p {
     font-family: "gilroylight";
     font-weight: normal;
-    font-size: 10px;
+    font-size: 20px;
     text-align: justify;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -3390,6 +3391,7 @@ button:hover {
     width: 5px;
   }
   .info_section_2 {
+    height: 400px;
     margin-top: 50px;
   }
   .info_section_2 .container {
@@ -3397,14 +3399,16 @@ button:hover {
     height: 100%;
   }
   .info_section_2 .container .main-box {
+    width: 100%;
+    height: 100%;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -3415,7 +3419,7 @@ button:hover {
   .info_section_2 .container .main-box .header {
     width: 100%;
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: 0px;
     z-index: 999;
   }
@@ -3436,7 +3440,7 @@ button:hover {
   }
   .info_section_2 .container .main-box .box_img {
     width: 50%;
-    height: 100%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3455,8 +3459,8 @@ button:hover {
             transform: rotate(10deg);
   }
   .info_section_2 .container .main-box .box_text {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 45%;
     -ms-flex-item-align: end;
         align-self: flex-end;
     display: -webkit-box;
@@ -3466,17 +3470,17 @@ button:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    position: absolute;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .info_section_2 .container .main-box .box_text p {
     width: 100%;
+    height: 100%;
     color: #07080c;
-    font-size: 9px;
+    font-size: 13px;
     line-height: normal;
     margin-top: 0px;
+    text-align: center;
   }
   .additional_services {
     margin-top: 40px;

@@ -2254,6 +2254,11 @@ button:hover {
   #top_navbar {
     margin-top: -10px;
   }
+  #top_navbar .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   #top_navbar .container .logo_link {
     width: 22%;
   }
@@ -3138,7 +3143,7 @@ button:hover {
   .develop_product .container .paragraph p {
     font-size: 20px;
     color: #707070;
-    text-align: center;
+    text-align: justify;
   }
   .development_section {
     margin-top: 80px;
@@ -3332,10 +3337,10 @@ button:hover {
   .info_section_1 .container .main-box .box_text p {
     width: 85%;
     color: #07080c;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 23px;
     margin: 33px 0;
-    text-align: center;
+    text-align: justify;
   }
   .info_section_1 .container .main-box .box_text a {
     font-size: 15px;
@@ -3391,7 +3396,7 @@ button:hover {
     width: 5px;
   }
   .info_section_2 {
-    height: 400px;
+    height: 500px;
     margin-top: 50px;
   }
   .info_section_2 .container {
@@ -3477,10 +3482,10 @@ button:hover {
     width: 100%;
     height: 100%;
     color: #07080c;
-    font-size: 13px;
+    font-size: 15px;
     line-height: normal;
     margin-top: 0px;
-    text-align: center;
+    text-align: justify;
   }
   .additional_services {
     margin-top: 40px;
@@ -3495,7 +3500,7 @@ button:hover {
   }
   .additional_services .container p {
     width: 95%;
-    font-size: 13px;
+    font-size: 19px;
     font-weight: 100;
     color: #707070;
     text-align: center;
@@ -3589,7 +3594,7 @@ button:hover {
             align-items: center;
   }
   .add_ser_boxes .container .boxes .card .card_text h3 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     padding: 15px 15px;
@@ -4219,7 +4224,12 @@ button:hover {
     padding: 0 30px;
   }
   #top_navbar {
-    margin-top: -10px;
+    margin-top: 0px;
+  }
+  #top_navbar .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #top_navbar .container .logo_link {
     width: 15%;
@@ -5126,6 +5136,7 @@ button:hover {
             justify-content: space-between;
   }
   .development_section .container .header {
+    height: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5141,7 +5152,7 @@ button:hover {
   .development_section .container .tech_col-2,
   .development_section .container .tech_col-3 {
     width: 100%;
-    height: 100%;
+    height: 26.666%;
     margin-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;

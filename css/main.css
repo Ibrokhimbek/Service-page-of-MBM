@@ -3664,7 +3664,7 @@ button:hover {
   }
   .clients_section {
     margin-top: 45px;
-    height: 750px;
+    height: 1150px;
   }
   .clients_section .container {
     display: -webkit-box;
@@ -3674,8 +3674,9 @@ button:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -3700,7 +3701,7 @@ button:hover {
   }
   .clients_section .container .clients_body {
     width: 90%;
-    height: 500px;
+    height: 1000px;
     margin-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3756,30 +3757,30 @@ button:hover {
   }
   .clients_section .container .clients_body .clients_body-names .client span:hover {
     color: #f60032;
-    font-size: 18px;
+    font-size: 16px;
   }
   .clients_section .container .clients_body .clients_body-names .client span:hover a {
     color: #f60032;
-    font-size: 18px;
+    font-size: 16px;
   }
   .clients_section .container .clients_body .clients_body-names .hovered_client span {
     color: #f60032 !important;
-    font-size: 17px !important;
+    font-size: 16px !important;
   }
   .clients_section .container .clients_body .clients_body-names .hovered_client span a {
     color: #f60032 !important;
-    font-size: 17px !important;
+    font-size: 16px !important;
   }
   .clients_section .container .clients_body .clients_body-comments {
-    width: 80%;
+    width: 100%;
     height: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -3787,8 +3788,8 @@ button:hover {
   .clients_section .container .clients_body .clients_body-comments .comments_1,
   .clients_section .container .clients_body .clients_body-comments .comments_2 {
     position: relative;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3799,9 +3800,9 @@ button:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .clients_section .container .clients_body .clients_body-comments .comments_1 .comment,
   .clients_section .container .clients_body .clients_body-comments .comments_2 .comment {
@@ -3821,9 +3822,9 @@ button:hover {
     background-color: #70707096;
     text-align: justify;
     z-index: 9999;
-    font-size: 9px;
+    font-size: 15px;
     margin-top: auto 0;
-    padding: 15% 15px;
+    padding: 15px;
     font-weight: 400;
     display: none;
     -webkit-transition: all 0.5s ease-in-out;
@@ -3867,13 +3868,11 @@ button:hover {
   .clients_section .container .clients_body .clients_body-comments .comments_1 .hovered_comment span,
   .clients_section .container .clients_body .clients_body-comments .comments_2 .hovered_comment span {
     background-color: #70707096;
-    font-size: 9px !important;
+    font-size: 15px !important;
     display: block;
   }
   .clients_section .container .clients_body .clients_body-comments .comments_2 {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    margin-top: 10px;
   }
   .work_together {
     margin-top: 20px;

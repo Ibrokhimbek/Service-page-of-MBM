@@ -1187,12 +1187,12 @@
 
   .clients_section {
     margin-top: 45px;
-    height: 750px;
+    height: 1150px;
 
     .container {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
 
       .header {
@@ -1220,7 +1220,7 @@
 
       .clients_body {
         width: 90%;
-        height: 500px;
+        height: 1000px;
         margin-top: 40px;
         display: flex;
         flex-direction: column-reverse;
@@ -1258,44 +1258,44 @@
 
             span:hover {
               color: #f60032;
-              font-size: 18px;
+              font-size: 16px;
             }
 
             span:hover a {
               color: #f60032;
-              font-size: 18px;
+              font-size: 16px;
             }
           }
 
           .hovered_client {
             span {
               color: #f60032 !important;
-              font-size: 17px !important;
+              font-size: 16px !important;
             }
 
             span a {
               color: #f60032 !important;
-              font-size: 17px !important;
+              font-size: 16px !important;
             }
           }
         }
 
         .clients_body-comments {
-          width: 80%;
+          width: 100%;
           height: 70%;
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           justify-content: center;
 
           .comments_1,
           .comments_2 {
             position: relative;
-            width: 50%;
-            height: 100%;
+            width: 100%;
+            height: 50%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items: center;
 
             .comment {
               display: flex;
@@ -1309,9 +1309,9 @@
                 background-color: #70707096;
                 text-align: justify;
                 z-index: 9999;
-                font-size: 9px;
+                font-size: 15px;
                 margin-top: auto 0;
-                padding: 15% 15px;
+                padding: 15px;
                 font-weight: 400;
                 display: none;
                 transition: all 0.5s ease-in-out;
@@ -1348,14 +1348,14 @@
 
               span {
                 background-color: #70707096;
-                font-size: 9px !important;
+                font-size: 15px !important;
                 display: block;
               }
             }
           }
 
           .comments_2 {
-            align-items: flex-end;
+            margin-top: 10px;
           }
         }
       }

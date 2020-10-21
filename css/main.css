@@ -1838,7 +1838,7 @@ button:hover {
   z-index: 9999;
   font-size: 15px;
   margin-top: auto 0;
-  padding: 15% 15px;
+  padding: 5px 15px;
   font-weight: 400;
   display: none;
   -webkit-transition: all 0.5s ease-in-out;
@@ -1985,37 +1985,37 @@ button:hover {
   width: 42%;
   color: black;
   font-family: "gilroylight", sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   border: none;
   padding: 10px 0;
-  padding-left: 10px;
+  padding-left: 0px;
   border-bottom: 1px solid #707070;
 }
 
 .work_together .container .contact_details .contact_online form .texts input::-webkit-input-placeholder {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   font-family: "gilroylight", sans-serif;
   color: #707070;
 }
 
 .work_together .container .contact_details .contact_online form .texts input:-ms-input-placeholder {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   font-family: "gilroylight", sans-serif;
   color: #707070;
 }
 
 .work_together .container .contact_details .contact_online form .texts input::-ms-input-placeholder {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   font-family: "gilroylight", sans-serif;
   color: #707070;
 }
 
 .work_together .container .contact_details .contact_online form .texts input::placeholder {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   font-family: "gilroylight", sans-serif;
   color: #707070;
@@ -2025,7 +2025,7 @@ button:hover {
   width: 42%;
   color: black;
   font-family: "gilroylight", sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   border: none;
   padding: 10px 0;
@@ -2042,10 +2042,11 @@ button:hover {
   font-size: 20px;
   font-weight: 100;
   border-radius: 35px;
-  width: 15%;
+  width: 22%;
   border: 1px solid transparent;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 
 .work_together .container .contact_details .contact_online form button:hover {

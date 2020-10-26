@@ -1,42 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 
 html {
-    box-sizing: border-box;
-    height: 100%;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 body {
-    font-family: "gilroylight", sans-serif;
-    height: 100%;
+  font-family: "gilroylight", sans-serif;
+  height: 100%;
 }
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .container {
-    max-width: 1221px;
-    padding: 0 5px;
-    margin: 0 auto;
+  max-width: 1221px;
+  padding: 0 5px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @font-face {
-    font-family: 'gilroylight';
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    src: url("../webfonts/gilroy-light-webfont.woff2") format("woff2"),
+  font-family: "gilroylight";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../webfonts/gilroy-light-webfont.woff2") format("woff2"),
     url("../webfonts/gilroy-light-webfont.woff") format("woff");
 }

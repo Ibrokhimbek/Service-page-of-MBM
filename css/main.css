@@ -34,7 +34,7 @@ button:hover {
 }
 
 @font-face {
-  font-family: 'gilroylight';
+  font-family: "gilroylight";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1772,6 +1772,14 @@ button:hover {
   font-size: 26px;
 }
 
+.clients_section .container .clients_body .clients_body-names #client-3 {
+  display: none;
+}
+
+.clients_section .container .clients_body .clients_body-names #client-6 {
+  display: none;
+}
+
 .clients_section .container .clients_body .clients_body-names .hovered_client span {
   color: #f60032 !important;
   font-size: 26px !important;
@@ -1809,9 +1817,8 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1825,37 +1832,69 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
 }
 
 .clients_section .container .clients_body .clients_body-comments .comments_1 .comment span,
 .clients_section .container .clients_body .clients_body-comments .comments_2 .comment span {
   width: 100%;
   height: 100%;
+  position: absolute;
+  bottom: -100%;
   color: #fff;
-  background-color: #70707096;
   text-align: justify;
   z-index: 9999;
   font-size: 15px;
-  margin-top: auto 0;
-  padding: 5px 15px;
+  padding: 0 10px;
   font-weight: 400;
-  display: none;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment::before,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #242424d5;
+  opacity: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .clients_section .container .clients_body .clients_body-comments .comments_1 .comment:hover,
 .clients_section .container .clients_body .clients_body-comments .comments_2 .comment:hover {
-  width: 100%;
-  height: 40%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment:hover::before,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment:hover::before {
+  opacity: 1;
 }
 
 .clients_section .container .clients_body .clients_body-comments .comments_1 .comment:hover span,
 .clients_section .container .clients_body .clients_body-comments .comments_2 .comment:hover span {
-  width: 100%;
-  height: 100%;
-  display: block;
+  bottom: 0;
 }
 
 .clients_section .container .clients_body .clients_body-comments .comments_1 .comment-1,
@@ -1871,23 +1910,59 @@ button:hover {
 .clients_section .container .clients_body .clients_body-comments .comments_2 .comment-5,
 .clients_section .container .clients_body .clients_body-comments .comments_2 .comment-6 {
   width: 95%;
-  height: 30%;
-  background-image: url(../images/hi.jpg);
+  height: 40%;
   background-size: cover;
+  background-position: center;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment-1,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment-1 {
+  background-image: url(../images/iys.png);
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment-2,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment-2 {
+  background-image: url(../images/avlod21.uz.png);
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment-3,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment-3 {
+  background-image: url(../images/avlod21.uz.png);
+  display: none;
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment-4,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment-4 {
+  background-image: url(../images/arch.png);
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment-5,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment-5 {
+  background-image: url(../images/nektar.png);
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .comment-6,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .comment-6 {
+  background-image: url(../images/avlod21.uz.png);
+  display: none;
+}
+
 .clients_section .container .clients_body .clients_body-comments .comments_1 .hovered_comment,
 .clients_section .container .clients_body .clients_body-comments .comments_2 .hovered_comment {
-  width: 100% !important;
-  height: 40% !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.clients_section .container .clients_body .clients_body-comments .comments_1 .hovered_comment::before,
+.clients_section .container .clients_body .clients_body-comments .comments_2 .hovered_comment::before {
+  opacity: 1;
 }
 
 .clients_section .container .clients_body .clients_body-comments .comments_1 .hovered_comment span,
 .clients_section .container .clients_body .clients_body-comments .comments_2 .hovered_comment span {
-  background-color: #70707096;
-  display: block;
+  bottom: 0;
 }
 
 .clients_section .container .clients_body .clients_body-comments .comments_2 {
@@ -1989,7 +2064,7 @@ button:hover {
   font-weight: 100;
   border: none;
   padding: 10px 0;
-  padding-left: 0px;
+  padding-left: 10px;
   border-bottom: 1px solid #707070;
 }
 
